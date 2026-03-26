@@ -1,14 +1,15 @@
 {
-  "name": "svg-optimization-action",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Andrea Musso",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "svgo": "^4.0.1"
-  }
+	"name": "svg-optimization-action",
+	"version": "1.0.0",
+	"description": "Finder Quick Action for optimizing SVG files with SVGO",
+	"main": "optimize-svg.js",
+	"scripts": {
+		"test:file": "node optimize-svg.js"
+	},
+	"author": "Andrea Musso",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"svgo": "^4.0.1"
+	}
 }

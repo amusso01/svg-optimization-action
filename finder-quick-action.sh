@@ -28,6 +28,7 @@ source "$NVM_DIR/nvm.sh"
 # Change this in the future if needed, then test:
 #   nvm install <version>
 #   nvm use <version>
+# 🔴 CHANGE THIS IN THE FUTURE IF NEEDED
 nvm use 22 >/dev/null 2>&1
 
 if [ $? -ne 0 ]; then
